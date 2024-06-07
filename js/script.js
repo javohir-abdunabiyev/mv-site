@@ -570,7 +570,8 @@ function reload(arr, place) {
             promoTitle.innerHTML = sorted[i].Title
             promo_descr.innerHTML = sorted[i].Plot
             genre.innerHTML = sorted[i].Genre
-            bg.style.background = `url(${sorted[i].Poster})`
+            bg.style.background = `url(${sorted[i].Poster}) center center/cover no-repeat`
+            
         }
 
         li.ondblclick = () => {
